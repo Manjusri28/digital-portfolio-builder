@@ -1,0 +1,241 @@
+/* Modern Theme */
+
+.portfolio.modern {
+    background: #ffffff;
+    color: #111827;
+}
+
+
+.portfolio.modern .hero-section {
+    border-radius: 20px;
+}
+
+
+/* Dark Theme */
+
+.portfolio.dark {
+    background: #111827;
+    color: white;
+}
+
+
+.portfolio.dark .portfolio-card {
+    background: #1f2937;
+    color: white;
+}
+
+
+.portfolio.dark .section-title {
+    color: white;
+}
+
+
+/* Minimal Theme */
+
+.portfolio.minimal {
+    background: #fafafa;
+    color: #333;
+}
+
+
+.portfolio.minimal .portfolio-card {
+    box-shadow: none;
+    border: 1px solid #ddd;
+}
+
+
+/* Creative Theme */
+
+.portfolio.creative {
+    background: linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+    color: white;
+}
+
+
+.portfolio.creative .portfolio-card {
+    background: rgba(255,255,255,0.15);
+    backdrop-filter: blur(10px);
+}
+
+/* =========================
+   DARK THEME
+========================= */
+
+
+.portfolio.dark {
+
+    background:#111827;
+    color:white;
+
+}
+
+
+.portfolio.dark .profile-card,
+.portfolio.dark .skill-card,
+.portfolio.dark .education-card,
+.portfolio.dark .experience-card,
+.portfolio.dark .project-card,
+.portfolio.dark .testimonial-card,
+.portfolio.dark .testimonial-form-card,
+.portfolio.dark .contact-card {
+
+    background:#1f2937;
+    color:white;
+    border:1px solid #374151;
+
+}
+
+
+
+.portfolio.dark input,
+.portfolio.dark textarea,
+.portfolio.dark select {
+
+    background:#111827;
+    color:white;
+    border-color:#4b5563;
+
+}
+
+
+
+/* =========================
+   MINIMAL THEME
+========================= */
+
+
+.portfolio.minimal {
+
+    background:#fafafa;
+    color:#333;
+
+}
+
+
+
+.portfolio.minimal .profile-card,
+.portfolio.minimal .skill-card,
+.portfolio.minimal .education-card,
+.portfolio.minimal .experience-card,
+.portfolio.minimal .project-card,
+.portfolio.minimal .testimonial-card,
+.portfolio.minimal .testimonial-form-card,
+.portfolio.minimal .contact-card {
+
+    background:white;
+    box-shadow:none;
+    border:1px solid #e5e7eb;
+
+}
+
+
+
+/* =========================
+   CREATIVE THEME
+========================= */
+
+
+.portfolio.creative {
+
+    background:linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    color:white;
+
+}
+
+
+
+.portfolio.creative .profile-card,
+.portfolio.creative .skill-card,
+.portfolio.creative .education-card,
+.portfolio.creative .experience-card,
+.portfolio.creative .project-card,
+.portfolio.creative .testimonial-card,
+.portfolio.creative .testimonial-form-card,
+.portfolio.creative .contact-card {
+
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(10px);
+
+    color:white;
+
+}
+
+.modern{
+    background:white;
+    color:#222;
+}
+
+
+.dark{
+    background:#111827;
+    color:white;
+}
+
+
+.blue{
+    background:#eff6ff;
+    color:#1e3a8a;
+}
+
+
+.green{
+    background:#ecfdf5;
+    color:#065f46;
+}
+
+.app-container.modern{
+    background:white;
+    color:#222;
+}
+
+
+.app-container.dark{
+    background:#111827;
+    color:white;
+}
+
+
+.app-container.blue{
+    background:#eff6ff;
+    color:#1e3a8a;
+}
+
+
+.app-container.green{
+    background:#ecfdf5;
+    color:#065f46;
+}
+
+.app-container.modern {
+    background: white;
+    color: #222;
+}
+
+
+.app-container.dark {
+    background: #111827;
+    color: white;
+}
+
+
+.app-container.blue {
+    background: #eff6ff;
+    color: #1e3a8a;
+}
+
+
+.app-container.green {
+    background: #ecfdf5;
+    color: #065f46;
+}

@@ -1,0 +1,368 @@
+.projects-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f7fc;
+}
+
+.projects-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.projects-content h1 {
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+
+/* Form */
+
+.projects-form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.projects-form input {
+
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  font-size: 15px;
+}
+
+
+.projects-form button {
+
+  background: #2563eb;
+  color: white;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+
+.projects-form button:hover {
+
+  background: #1d4ed8;
+
+}
+
+.projects-form input,
+.projects-form textarea {
+
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+
+.projects-form textarea {
+
+    min-height: 140px;
+    resize: vertical;
+    line-height: 1.6;
+
+}
+
+.projects-form textarea:focus {
+
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+
+}
+
+
+.projects-form button {
+
+    width: fit-content;
+    padding: 10px 20px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+
+
+/* Education Cards */
+
+
+.projects-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  margin-bottom: 15px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+}
+
+
+.projects-card h2 {
+
+  margin-bottom: 10px;
+
+  color: #111827;
+
+}
+
+
+.projects-card p {
+
+  margin: 5px 0;
+
+  color: #4b5563;
+
+}
+
+
+
+.delete-btn {
+
+  margin-top: 15px;
+
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 15px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+}
+
+
+.delete-btn:hover {
+
+  background:#dc2626;
+
+}
+
+
+
+.edit-btn {
+
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:10px 20px;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}
+
+.education-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f7fc;
+}
+
+.education-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.education-content h1 {
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+
+/* Form */
+
+.education-form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.education-form input {
+
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  font-size: 15px;
+}
+
+
+.education-form button {
+
+  background: #2563eb;
+  color: white;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+
+.education-form button:hover {
+
+  background: #1d4ed8;
+
+}
+
+
+
+/* Education Cards */
+
+
+.education-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  margin-bottom: 15px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+}
+
+
+.education-card h2 {
+
+  margin-bottom: 10px;
+
+  color: #111827;
+
+}
+
+
+.education-card p {
+
+  margin: 5px 0;
+
+  color: #4b5563;
+
+}
+
+
+
+.delete-btn {
+
+  margin-top: 15px;
+
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 15px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+}
+
+
+.delete-btn:hover {
+
+  background:#dc2626;
+
+}
+
+.edit-btn {
+
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:10px 20px;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}
+
+/* ===========================
+   Experience Description
+=========================== */
+
+.experience-form textarea{
+    width:100%;
+    min-height:170px;
+    padding:16px 20px;
+    margin-top:18px;
+    margin-bottom:20px;
+
+    border:2px solid #e5e7eb;
+    border-radius:16px;
+
+    background:#f8fafc;
+    color:#374151;
+
+    font-size:16px;
+    font-family:inherit;
+    line-height:1.7;
+
+    resize:vertical;
+    outline:none;
+
+    transition:all 0.3s ease;
+    box-sizing:border-box;
+}
+
+.experience-form textarea::placeholder{
+    color:#9ca3af;
+}
+
+.experience-form textarea:focus{
+    background:#ffffff;
+    border-color:#2563eb;
+    box-shadow:0 0 0 4px rgba(37,99,235,0.12);
+}

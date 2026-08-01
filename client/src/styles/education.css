@@ -1,0 +1,142 @@
+.education-page {
+  display: flex;
+  min-height: 100vh;
+  background: #f4f7fc;
+}
+
+.education-content {
+  flex: 1;
+  padding: 30px;
+}
+
+.education-content h1 {
+  color: #1f2937;
+  margin-bottom: 25px;
+}
+
+
+/* Form */
+
+.education-form {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.education-form input {
+
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+
+  font-size: 15px;
+}
+
+
+.education-form button {
+
+  background: #2563eb;
+  color: white;
+
+  padding: 12px 20px;
+
+  border: none;
+  border-radius: 8px;
+
+  cursor: pointer;
+
+}
+
+
+.education-form button:hover {
+
+  background: #1d4ed8;
+
+}
+
+
+
+/* Education Cards */
+
+
+.education-card {
+
+  background: white;
+
+  padding: 20px;
+
+  border-radius: 12px;
+
+  margin-bottom: 15px;
+
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+
+}
+
+
+.education-card h2 {
+
+  margin-bottom: 10px;
+
+  color: #111827;
+
+}
+
+
+.education-card p {
+
+  margin: 5px 0;
+
+  color: #4b5563;
+
+}
+
+
+
+.delete-btn {
+
+  margin-top: 15px;
+
+  background: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  padding: 8px 15px;
+
+  border-radius: 6px;
+
+  cursor: pointer;
+
+}
+
+
+.delete-btn:hover {
+
+  background:#dc2626;
+
+}
+
+.edit-btn {
+
+
+background:#2563eb;
+
+color:white;
+
+border:none;
+
+padding:10px 20px;
+
+border-radius:10px;
+
+cursor:pointer;
+
+}

@@ -1,0 +1,38 @@
+.message-card{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    margin-bottom:20px;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.08);
+
+}
+
+
+.message-card h3{
+
+    color:#2563eb;
+
+    margin-bottom:10px;
+
+}
+
+
+.message-card p{
+
+    margin:10px 0;
+
+    line-height:1.6;
+
+}
+
+
+.message-card small{
+
+    color:#777;
+
+}

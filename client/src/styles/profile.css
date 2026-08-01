@@ -1,0 +1,513 @@
+/* =========================
+   PROFILE PAGE
+========================= */
+
+
+.profile-container {
+
+    min-height:100vh;
+
+    padding:40px;
+
+    background:#f8fafc;
+
+}
+
+
+
+/* Main Card */
+
+.profile-card {
+
+    max-width:900px;
+
+    margin:auto;
+
+    background:white;
+
+    padding:40px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 35px rgba(0,0,0,0.08);
+
+}
+
+
+
+/* Title */
+
+.profile-card h1 {
+
+    font-size:32px;
+
+    font-weight:700;
+
+    color:#111827;
+
+    margin-bottom:30px;
+
+    text-align:center;
+
+}
+
+
+
+/* Form */
+
+.profile-card form {
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:18px;
+
+}
+
+
+
+/* Labels */
+
+.profile-card label {
+
+    font-size:15px;
+
+    font-weight:600;
+
+    color:#374151;
+
+    margin-top:8px;
+
+}
+
+
+
+/* File Upload */
+
+.profile-card input[type="file"] {
+
+
+    padding:12px;
+
+    background:#f9fafb;
+
+    border:1px dashed #cbd5e1;
+
+    border-radius:12px;
+
+    cursor:pointer;
+
+    font-size:14px;
+
+}
+
+
+
+/* Text Inputs */
+
+.profile-card input[type="text"],
+
+.profile-card textarea {
+
+
+    width:100%;
+
+    padding:15px 18px;
+
+    border-radius:12px;
+
+    border:1px solid #d1d5db;
+
+    font-size:15px;
+
+    outline:none;
+
+    background:white;
+
+    transition:0.3s ease;
+
+    box-sizing:border-box;
+
+}
+
+
+
+/* Text Area */
+
+
+.profile-card textarea {
+
+
+    min-height:160px;
+
+    resize:none;
+
+    line-height:1.6;
+
+}
+
+
+
+/* Focus */
+
+
+.profile-card input[type="text"]:focus,
+
+.profile-card textarea:focus {
+
+
+    border-color:#2563eb;
+
+
+    box-shadow:
+
+    0 0 0 4px rgba(37,99,235,0.12);
+
+
+}
+
+/* Save Button */
+
+
+.profile-card button {
+
+
+    margin-top:15px;
+
+    width:180px;
+
+    padding:14px 25px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:600;
+
+    cursor:pointer;
+
+    transition:0.3s ease;
+
+
+}
+
+
+
+.profile-card button:hover {
+
+
+    background:#1d4ed8;
+
+    transform:translateY(-3px);
+
+
+}
+
+
+
+/* Animation */
+
+
+.profile-card {
+
+
+    animation:profileAnimation .4s ease;
+
+
+}
+
+
+
+@keyframes profileAnimation {
+
+
+    from{
+
+        opacity:0;
+
+        transform:translateY(20px);
+
+    }
+
+
+    to{
+
+        opacity:1;
+
+        transform:translateY(0);
+
+    }
+
+
+}
+
+
+
+/* Responsive */
+
+
+@media(max-width:768px){
+
+
+    .profile-container{
+
+        padding:20px;
+
+    }
+
+
+    .profile-card{
+
+        padding:25px;
+
+    }
+
+
+    .profile-card h1{
+
+        font-size:26px;
+
+    }
+
+
+    .profile-card button{
+
+        width:100%;
+
+    }
+
+
+}
+
+/* =========================
+   PROFILE THEMES
+========================= */
+
+
+/* DARK THEME */
+
+.profile-container.dark {
+
+    background:#111827;
+
+}
+
+
+.profile-container.dark .profile-card {
+
+    background:#1f2937;
+
+    color:white;
+
+}
+
+
+
+.profile-container.dark h1 {
+
+    color:white;
+
+}
+
+
+
+.profile-container.dark label {
+
+    color:#e5e7eb;
+
+}
+
+
+
+.profile-container.dark input,
+.profile-container.dark textarea {
+
+
+    background:#111827;
+
+    color:white;
+
+    border-color:#374151;
+
+
+}
+
+
+
+.profile-container.dark input::placeholder,
+.profile-container.dark textarea::placeholder {
+
+
+    color:#9ca3af;
+
+
+}
+
+
+
+/* MINIMAL THEME */
+
+
+.profile-container.minimal {
+
+
+    background:#fafafa;
+
+
+}
+
+
+
+.profile-container.minimal .profile-card {
+
+
+    box-shadow:none;
+
+    border:1px solid #e5e7eb;
+
+
+}
+
+
+
+/* CREATIVE THEME */
+
+
+.profile-container.creative {
+
+
+    background:linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+
+}
+
+
+
+.profile-container.creative .profile-card {
+
+
+    background:rgba(255,255,255,0.15);
+
+    backdrop-filter:blur(12px);
+
+    color:white;
+
+
+}
+
+
+
+.profile-container.creative h1,
+.profile-container.creative label {
+
+
+    color:white;
+
+
+}
+
+
+
+.profile-container.creative input,
+.profile-container.creative textarea {
+
+
+    background:rgba(255,255,255,0.2);
+
+    color:white;
+
+    border-color:rgba(255,255,255,0.4);
+
+
+}
+
+/* =========================
+   Profile Image Preview
+========================= */
+
+
+.profile-preview {
+
+    display:flex;
+
+    justify-content:center;
+
+    margin-bottom:20px;
+
+}
+
+
+
+.profile-preview-img {
+
+
+    width:130px;
+
+    height:130px;
+
+    border-radius:50%;
+
+    object-fit:cover;
+
+    border:5px solid #2563eb;
+
+    box-shadow:
+
+    0 8px 20px rgba(37,99,235,0.25);
+
+
+}
+
+
+
+/* Upload Status */
+
+
+.image-status {
+
+
+    background:#eff6ff;
+
+    color:#2563eb;
+
+    padding:12px 15px;
+
+    border-radius:10px;
+
+    font-weight:600;
+
+    font-size:14px;
+
+
+}
+
+.file-status{
+
+    background:#f0f9ff;
+
+    color:#0369a1;
+
+    padding:12px 15px;
+
+    border-radius:10px;
+
+    font-size:14px;
+
+    font-weight:600;
+
+    margin-top:-8px;
+
+    word-break:break-word;
+
+}

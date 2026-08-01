@@ -1,0 +1,335 @@
+/* =========================
+   Portfolio Theme Selector
+========================= */
+
+
+.theme-selector {
+
+    background:#ffffff;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 10px 30px rgba(0,0,0,0.08);
+
+    margin:25px;
+
+}
+
+
+
+.theme-selector h2 {
+
+    font-size:28px;
+
+    font-weight:700;
+
+    color:#111827;
+
+    margin-bottom:10px;
+
+}
+
+
+.theme-selector p {
+
+    color:#6b7280;
+
+    margin-bottom:30px;
+
+}
+
+
+
+/* Theme Grid */
+
+.theme-buttons {
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+
+}
+
+
+
+/* Theme Cards */
+
+.theme-buttons button {
+
+    height:150px;
+
+    border:none;
+
+    border-radius:18px;
+
+    cursor:pointer;
+
+    font-size:18px;
+
+    font-weight:600;
+
+    color:#374151;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+    gap:15px;
+
+    position:relative;
+
+    overflow:hidden;
+
+    transition:all 0.35s ease;
+
+    border:2px solid transparent;
+
+}
+
+
+
+/* Modern Preview */
+
+.theme-buttons button:nth-child(1){
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #ffffff,
+        #dbeafe
+    );
+
+}
+
+
+
+/* Dark Preview */
+
+.theme-buttons button:nth-child(2){
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #111827,
+        #374151
+    );
+
+    color:white;
+
+}
+
+
+
+/* Minimal Preview */
+
+.theme-buttons button:nth-child(3){
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #fafafa,
+        #e5e7eb
+    );
+
+}
+
+
+
+/* Creative Preview */
+
+.theme-buttons button:nth-child(4){
+
+    background:
+
+    linear-gradient(
+        135deg,
+        #667eea,
+        #764ba2
+    );
+
+    color:white;
+
+}
+
+
+
+/* Hover Effect */
+
+.theme-buttons button:hover {
+
+    transform:translateY(-8px);
+
+    box-shadow:
+
+    0 15px 30px rgba(0,0,0,0.15);
+
+}
+
+
+
+/* Selected Theme */
+
+.theme-buttons button.active {
+
+
+    border:3px solid #2563eb;
+
+
+    transform:translateY(-8px);
+
+
+    box-shadow:
+
+    0 15px 35px rgba(37,99,235,0.35);
+
+
+}
+
+
+
+/* Selected Tick */
+
+.theme-buttons button.active::after {
+
+
+    content:"✓";
+
+
+    position:absolute;
+
+
+    top:12px;
+
+
+    right:15px;
+
+
+    width:30px;
+
+
+    height:30px;
+
+
+    border-radius:50%;
+
+
+    background:#2563eb;
+
+
+    color:white;
+
+
+    display:flex;
+
+
+    align-items:center;
+
+
+    justify-content:center;
+
+
+    font-size:18px;
+
+
+}
+
+
+
+/* Save Button */
+
+
+.save-theme {
+
+
+    margin-top:35px;
+
+
+    padding:14px 35px;
+
+
+    border:none;
+
+
+    border-radius:12px;
+
+
+    background:#2563eb;
+
+
+    color:white;
+
+
+    font-size:16px;
+
+
+    font-weight:600;
+
+
+    cursor:pointer;
+
+
+    transition:0.3s ease;
+
+
+}
+
+
+
+.save-theme:hover {
+
+
+    background:#1d4ed8;
+
+
+    transform:translateY(-3px);
+
+
+}
+
+
+
+/* Responsive */
+
+
+@media(max-width:1100px){
+
+
+    .theme-buttons{
+
+        grid-template-columns:repeat(2,1fr);
+
+    }
+
+}
+
+
+
+@media(max-width:600px){
+
+
+    .theme-selector{
+
+        padding:20px;
+
+    }
+
+
+    .theme-buttons{
+
+        grid-template-columns:1fr;
+
+    }
+
+
+}

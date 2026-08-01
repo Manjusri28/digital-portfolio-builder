@@ -1,0 +1,94 @@
+/* =========================
+   Testimonial Form
+========================= */
+
+.testimonial-form-card {
+
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+    margin-top: 30px;
+
+}
+
+
+
+.testimonial-form-card h2 {
+
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+
+}
+
+
+
+.testimonial-form-card form {
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+
+
+.testimonial-form-card input,
+.testimonial-form-card textarea,
+.testimonial-form-card select {
+
+    width: 100%;
+    padding: 14px;
+    border: 1px solid #d1d5db;
+    border-radius: 10px;
+    font-size: 15px;
+    font-family: inherit;
+    outline: none;
+    box-sizing: border-box;
+
+}
+
+
+
+.testimonial-form-card textarea {
+
+    min-height: 140px;
+    resize: vertical;
+    line-height: 1.6;
+
+}
+
+
+
+.testimonial-form-card input:focus,
+.testimonial-form-card textarea:focus,
+.testimonial-form-card select:focus {
+
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37,99,235,0.15);
+
+}
+
+
+
+.testimonial-form-card button {
+
+    width: fit-content;
+    padding: 12px 24px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+
+}
+
+
+
+.testimonial-form-card button:hover {
+
+    background: #1d4ed8;
+
+}

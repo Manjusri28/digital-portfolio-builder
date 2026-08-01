@@ -1,0 +1,135 @@
+.sidebar {
+
+    width:250px;
+
+    min-height:100vh;
+
+    background:#1f2937;
+
+    padding:30px 20px;
+
+    display:flex;
+
+    flex-direction:column;
+
+    gap:25px;
+
+}
+
+
+/* Sidebar Links */
+
+.sidebar a {
+
+    text-decoration:none;
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:500;
+
+    padding:14px 18px;
+
+    border-radius:12px;
+
+    display:flex;
+
+    align-items:center;
+
+    gap:12px;
+
+    transition:all 0.3s ease;
+
+}
+
+
+
+/* Hover Effect */
+
+.sidebar a:hover {
+
+    background:#2563eb;
+
+    color:white;
+
+    transform:translateX(5px);
+
+}
+
+
+
+/* Active Link */
+
+.sidebar a.active {
+
+    background:#2563eb;
+
+    color:white;
+
+}
+
+
+
+/* Space between sidebar items */
+
+.sidebar > * {
+
+    margin-bottom:5px;
+
+}
+
+
+
+/* Notification Badge */
+
+.badge {
+
+    background:#ef4444;
+
+    color:white;
+
+    border-radius:50%;
+
+    padding:3px 8px;
+
+    font-size:12px;
+
+    font-weight:600;
+
+    margin-left:auto;
+
+}
+
+
+
+/* Logout Button if present */
+
+.sidebar button {
+
+    margin-top:auto;
+
+    padding:12px 15px;
+
+    border:none;
+
+    border-radius:10px;
+
+    background:#dc2626;
+
+    color:white;
+
+    font-size:15px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+.sidebar button:hover {
+
+    background:#b91c1c;
+
+}
